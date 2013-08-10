@@ -24,12 +24,13 @@ io.sockets.on('connection', function (socket) {
         // Arrow right: rotate clockwise
         client.clockwise(0.5);
     } else if (data === 76 || data === 108) {
-        // Escape: land the drone
+        // 'L': land the drone
         client.land();
     } else if (data === 13) {
         // Return: take off
         client.takeoff();
     } else if (data === 70 || data === 102) {
+        // 'F': flash LEDs
         client.animateLeds('snakeGreenRed', 3, 10);
     } else {
         client.animateLeds('blinkOrange', 3, 5);
