@@ -1,0 +1,23 @@
+{
+  "name": "leapdrone",
+  "version": "0.0.0",
+  "description": "Leap controlled ar-drone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/james147/leapdrone.git"
+  },
+  "keywords": [
+    "Leap",
+    "motion",
+    "Ardrone"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/james147/leapdrone/issues"
+  }
+}
