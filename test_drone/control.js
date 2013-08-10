@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
 });
 io.sockets.on('connection', function (socket) {
   socket.on('mykeypress', function (data) {
-    if (data === ) {
+    if (data === 32) {
         // Space: stop all activities and simply hover
         client.stop();
     } else if (data === 37) {
