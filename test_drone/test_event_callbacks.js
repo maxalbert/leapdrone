@@ -16,7 +16,7 @@ eventEmitter.on('someOccurence', function() {
 client.takeoff();
 client
   .after(5000, function() {
-    this.clockwise(0.1);
+    this.clockwise(0.5);
   })
   .after(5000, function() {
     eventEmitter.emit('someOccurence');
