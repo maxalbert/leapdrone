@@ -19,5 +19,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/james147/leapdrone/issues"
+  },
+  "dependencies": {
+    "ar-drone": "~0.1.0",
+    "leapjs": "~0.2.0"
   }
 }
